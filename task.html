@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event bubbling & Event trickling</title>
+</head>
+<style>
+  div {
+    border: 2px solid black;
+    padding: 60px;
+  }
+</style>
+
+<body>
+  <div id="grandParent">
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+  </div>
+  <script src="task.js"></script>
+</body>
+
+</html>
